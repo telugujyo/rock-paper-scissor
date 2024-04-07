@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS
+    </title>
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div id="maincontainer">
+
+    <div id="buttons">
+     
+        <button onclick="userinput('rock')"><img src="images/rock.png" alt="" ></button>
+        <button  onclick="userinput('paper')"><img src="images/paper.png" alt=""></button>
+        <button  onclick="userinput('scissor')"><img src="images/scissors.jpg" alt=""></button>
+      
+       </div>
+       <div id="extra">
+        <button id="reset" onclick="reset()">Reset</button>
+        <button id="autoplay" onclick="autoplay()">Autoplay:off</button>
+       </div>
+   
+    <div id="paras">
+        <div id="u">User input:</div><div id="s">System Input:</div><div id="r">
+            Result:</div>
+    </div>
+   
+    <div id="spans">
+        <span id="win">win:000</span>
+        <span id="lose">lose:000</span>
+        <span id="tie">tie:000</span>
+    </div>
+  </div>
+</body>
+<script src="scripts/script.js">
+    
+</script>
+</html>
